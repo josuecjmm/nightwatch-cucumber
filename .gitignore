@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# report
+./tests_output/nightwatch-html-report
+
+# Jetbrains
+.idea
