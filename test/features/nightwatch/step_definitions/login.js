@@ -13,3 +13,9 @@ Then('I should see the landing page', () => {
         .waitForElementVisible('@appLogo')
         .assert.textEquals('@appLogo', 'Swag Labs');
 })
+
+Then('I should see the error message on Login', () => {
+    return browser.page.loginPage()
+        .waitForElementVisible('@lblError')
+        .assert.textContains('@lblError', 'Username and password do not match any user in this service');
+})
