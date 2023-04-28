@@ -6,6 +6,7 @@ module.exports = {
         loginLogo: '.login_logo',
         inputUsername: '[data-test="username"]',
         inputPassword: '[data-test="password"]',
+        lblError: '[data-test="error"]',
         btnSubmit: '[type="submit"]'
     },
     commands: [
