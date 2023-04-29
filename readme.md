@@ -19,6 +19,7 @@ Run the tests:
 ```sh 
 npm test
 ```
+![](https://github.com/josuecjmm/nightwatch-cucumber/blob/main/gif/run.gif)
 
 ### Project Structure
 
